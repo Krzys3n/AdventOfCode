@@ -47,5 +47,6 @@ for seed in seeds:
             # print("-----------------------")
     if location < locationmin:
         locationmin = location
+        break
     print("Location: ", location)
 print("Minimum location: ", locationmin)
